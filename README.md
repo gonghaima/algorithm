@@ -1,4 +1,4 @@
 # nodevscodedebugging
-implimentation of algorithm rules
+implementation of algorithm rules
 
 Binary Search
