@@ -1,4 +1,4 @@
 # nodevscodedebugging
 implementation of algorithm rules
 
-Binary Search
+Binary Search (npm start || npm test)
