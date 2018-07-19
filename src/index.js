@@ -28,6 +28,10 @@ const searchVal1 = 5;
 let exists = DepthFirstSearch(bst.root, searchVal);
 let exists1 = DepthFirstSearch(bst.root, searchVal1);
 
-
 console.log(`The value ${searchVal} is in the binary tree: ${exists}`);
 console.log(`The value ${searchVal1} is in the binary tree: ${exists1}`);
+
+/** Binary tree min value search */
+import { MinValueSearch } from "./BinarySearchTree/Search/minValueSearch";
+const minVal = MinValueSearch(bst.root);
+console.log(`The min value in the tree is: ${minVal}`);
