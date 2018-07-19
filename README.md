@@ -16,5 +16,5 @@ Binary Tree
             bst.push(5);
 
                     3
-            2.   	      4
+            2.   	    4
        1.  null.       null.  5

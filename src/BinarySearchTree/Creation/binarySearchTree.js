@@ -37,4 +37,23 @@ export default class BinarySearchTree {
             }
         }
     }
+
+    // depthFirstSearch(node) {
+    //     if (node) {
+    //         console.log(node.value);
+    //         depthFirstSearch(node.left);
+    //         depthFirstSearch(node.right);
+    //     }
+    // }
+
+    // depthFirstSearch(node) {
+    //     if(!node){
+    //         depthFirstSearch(this.root);
+    //     }
+    //     if (node) {
+    //         console.log(node.value);
+    //         depthFirstSearch(node.left);
+    //         depthFirstSearch(node.right);
+    //     }
+    // }
 }
