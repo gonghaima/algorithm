@@ -17,4 +17,4 @@ Binary Tree
 
                     3
             2.   	    4
-       1.  null.       null.  5
+       1.  null.       null.    5

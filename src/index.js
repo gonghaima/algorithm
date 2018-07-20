@@ -13,25 +13,21 @@ console.log(`BableSortResult: ${BableSortResult}`);
 
 /** Binary search tree */
 import BinarySearchTree from "./BinarySearchTree/Creation/binarySearchTree";
-var bst = new BinarySearchTree();
-bst.push(3);
-bst.push(2);
-bst.push(4);
-bst.push(1);
-bst.push(5);
-console.log(`Binary tree has been created: ${bst}`);
+import mockedBinarySearchTree from "../mock/mockBinarySearchTree";
+
+console.log(`Binary tree has been created: ${mockedBinarySearchTree}`);
 
 /** Binary tree depth search */
 import { DepthFirstSearch } from "./BinarySearchTree/Search/depthFirstSearch";
 const searchVal = 14; 
 const searchVal1 = 5; 
-let exists = DepthFirstSearch(bst.root, searchVal);
-let exists1 = DepthFirstSearch(bst.root, searchVal1);
+let exists = DepthFirstSearch(mockedBinarySearchTree.root, searchVal);
+let exists1 = DepthFirstSearch(mockedBinarySearchTree.root, searchVal1);
 
 console.log(`The value ${searchVal} is in the binary tree: ${exists}`);
 console.log(`The value ${searchVal1} is in the binary tree: ${exists1}`);
 
 /** Binary tree min value search */
 import { MinValueSearch } from "./BinarySearchTree/Search/minValueSearch";
-const minVal = MinValueSearch(bst.root);
+const minVal = MinValueSearch(mockedBinarySearchTree.root);
 console.log(`The min value in the tree is: ${minVal}`);
