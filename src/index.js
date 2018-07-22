@@ -19,8 +19,8 @@ console.log(`Binary tree has been created: ${mockedBinarySearchTree}`);
 
 /** Binary tree depth search */
 import { DepthFirstSearch } from "./BinarySearchTree/Search/depthFirstSearch";
-const searchVal = 14; 
-const searchVal1 = 5; 
+const searchVal = 14;
+const searchVal1 = 5;
 let exists = DepthFirstSearch(mockedBinarySearchTree.root, searchVal);
 let exists1 = DepthFirstSearch(mockedBinarySearchTree.root, searchVal1);
 
@@ -31,3 +31,8 @@ console.log(`The value ${searchVal1} is in the binary tree: ${exists1}`);
 import { MinValueSearch } from "./BinarySearchTree/Search/minValueSearch";
 const minVal = MinValueSearch(mockedBinarySearchTree.root);
 console.log(`The min value in the tree is: ${minVal}`);
+
+/** Binary tree height */
+import { Height } from './BinarySearchTree/Search/height';
+const ht = Height(mockedBinarySearchTree.root, 0);
+console.log(`The height in the tree is: ${ht}`);

@@ -18,3 +18,40 @@ Binary Tree
                     3
             2.   	    4
        1.  null.       null.    5
+
+                    3
+            2.   	    4
+       1.  null.       null.    5
+                            null    6
+                                null   7
+
+                    3
+            2.   	    4
+       1.  null.       null.    5
+                            4       6
+                         3    null  null   7
+                       2 null
+
+                    3
+            2.   	    4
+       1.  null.       null.    5
+                            4       6
+                         3    null
+                       2 null
+                     null 6
+                       null 7
+
+                    3
+            2.   	    4
+       1.      2       3        5
+                            4       6
+                       null null  null   7
+
+                    3
+            2.   	    4
+       1.      2       3           5
+           null  2             4          6
+              null 2       null null  null   7
+               null 2
+                null 2
+                 null 2
