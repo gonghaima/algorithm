@@ -6,9 +6,15 @@ console.log(`BinarySearchResult - index of the given value: ${BinarySearchResult
 
 /** Bubble sort */
 const dataBubleSort = [1, 8, 2, 9, 3, 4, 6, 7, 5, 10];
-import { BubbleSort } from './babbleSort';
+import { BubbleSort } from './Sorting/babbleSort';
 const BableSortResult = BubbleSort(dataBubleSort);
 console.log(`BableSortResult: ${BableSortResult}`);
+
+/** Insertion sort */
+const dataInsertion = [1, 8, 2, 9, 3, 4, 6, 7, 5, 10];
+import { InsertionSort } from './Sorting/InsertionSort';
+const InsertionSortResult = InsertionSortResult(dataInsertion);
+console.log(`InsertionSortResult: ${InsertionSortResult}`);
 
 
 /** Binary search tree */
