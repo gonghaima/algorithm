@@ -5,6 +5,9 @@ Binary Search (npm start || npm test)
 
 Bubble Sort
 
+Insertion Sort
+Insertion sort algorithm iterates, consuming one input element each repetition, and growing a sorted output list. Each iteration removes one element from the input data, finds the location it belongs within the sorted list, and inserts it there. It repeats until no input elements remain. 
+
 Binary Tree
     binary search tree - for every node value in the left is smaller than the value of the node and value at the right is higher than the value of the root.
 

@@ -13,7 +13,7 @@ console.log(`BableSortResult: ${BableSortResult}`);
 /** Insertion sort */
 const dataInsertion = [1, 8, 2, 9, 3, 4, 6, 7, 5, 10];
 import { InsertionSort } from './Sorting/InsertionSort';
-const InsertionSortResult = InsertionSortResult(dataInsertion);
+const InsertionSortResult = InsertionSort(dataInsertion);
 console.log(`InsertionSortResult: ${InsertionSortResult}`);
 
 
