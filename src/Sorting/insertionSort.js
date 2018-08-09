@@ -1,12 +1,12 @@
-export const InsertionSort = (data) => {
-    for(var i = 0; i < data.length; i++) {
-      var temp = data[i];
-      var j = i - 1;
-      while (j >= 0 && data[j] > temp) {
-        data[j + 1] = data[j];
-        j--;
-      }
-      data[j + 1] = temp;
+export const InsertionSort = data => {
+  for (let i = 0; i < data.length; i++) {
+    const currentElement = data[i];
+    let subIndex;
+    for (let j = i - 1; j > -1 && data[j] > currentElement; j--) {
+      data[j + 1] = data[j];
+      subIndex=j;
     }
-    return data;
+    data[subIndex] = currentElement;
   }
+  return data;
+}
