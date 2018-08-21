@@ -9,8 +9,5 @@ export const InsertionSort = data => {
     }
     if (data.length <= lg) data[subIndex] = currentElement;
   }
-  // console.log(`Lllllllennth --- ${data.length}----`);
-  // console.log(`data result ---${data}----`);
-  
   return data;
 };
